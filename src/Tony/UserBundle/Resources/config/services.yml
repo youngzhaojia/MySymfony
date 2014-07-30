@@ -1,0 +1,7 @@
+parameters:
+#    tony_user.example.class: Tony\UserBundle\Example
+
+services:
+#    tony_user.example:
+#        class: %tony_user.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

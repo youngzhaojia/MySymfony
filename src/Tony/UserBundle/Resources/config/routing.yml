@@ -1,0 +1,3 @@
+tony_user_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: TonyUserBundle:Default:index }
