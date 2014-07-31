@@ -55,8 +55,11 @@ My private version of symfony 2 !
         }
 
 + Step 4: Don't forget update your hosts file:
-    on Windows, edit `C:\Windows\System32\drivers\etc\hosts`
-    on Linux, edit `/etc/hosts`
-    add a new line: `127.0.0.1  dev.my-symfony.me`
+
+    + on Windows, edit `C:\Windows\System32\drivers\etc\hosts`
+
+    + on Linux, edit `/etc/hosts`
+
+    + add a new line: `127.0.0.1  dev.my-symfony.me`
 
 + Step 5: Open your browser, go to `http://dev.my-symfony.me/`
