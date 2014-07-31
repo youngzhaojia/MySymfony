@@ -1,6 +1,6 @@
 <?php
 
-namespace Tony\UserBundle\Controller;
+namespace Proj\CoreBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction($name)
     {
-        return $this->render('TonyUserBundle:Default:index.html.twig', array('name' => $name));
+        return $this->render('ProjCoreBundle:Default:index.html.twig', array('name' => $name));
     }
 }
