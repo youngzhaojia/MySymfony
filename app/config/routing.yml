@@ -1,12 +1,14 @@
-proj_core:
-    resource: "@ProjCoreBundle/Resources/config/routing.yml"
-    prefix:   /
-
 tony_base:
-    resource: "@TonyBaseBundle/Resources/config/routing.yml"
-    prefix:   /
+    resource:   "@TonyBaseBundle/Controller/"
+    type:       annotation
+    prefix:     /
 
 tony_user:
-    resource: "@TonyUserBundle/Resources/config/routing.yml"
-    prefix:   /
+    resource:   "@TonyBaseBundle/Controller/"
+    type:       annotation
+    prefix:     /
 
+proj_core:
+    resource:   "@ProjCoreBundle/Controller/"
+    type:       annotation
+    prefix:     /
