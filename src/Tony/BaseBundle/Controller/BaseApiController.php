@@ -13,7 +13,7 @@ use Tony\BaseBundle\Common\AjaxResponse as AR;
 
 /**
  * Class BaseApiController
- * @package Mdx\BaseBundle\Common
+ * @package Tony\BaseBundle\Controller
  */
 class BaseApiController extends BaseController
 {

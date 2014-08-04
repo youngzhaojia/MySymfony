@@ -20,7 +20,7 @@ security:
                         lucups: { password: kkkk, roles: ROLE_ADMIN }
             user:
                 entity:
-                    class: Mdx\UserBundle\Entity\User
+                    class: Tony\UserBundle\Entity\User
 
     firewalls:
 #        admin_area:

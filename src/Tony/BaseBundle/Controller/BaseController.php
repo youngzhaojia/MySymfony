@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 /**
  * Class BaseController
- * @package Mdx\BaseBundle\Common
+ * @package Tony\BaseBundle\Controller
  */
 class BaseController extends Controller
 {

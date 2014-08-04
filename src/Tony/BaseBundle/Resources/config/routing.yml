@@ -1,3 +1,0 @@
-tony_base_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: TonyBaseBundle:Default:index }

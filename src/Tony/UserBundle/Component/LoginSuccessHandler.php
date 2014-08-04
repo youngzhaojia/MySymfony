@@ -20,7 +20,7 @@ use Doctrine\Bundle\DoctrineBundle\Registry as Doctrine;
 
 /**
  * Class LoginSuccessHandler
- * @package Mdx\UserBundle\Component
+ * @package Tony\UserBundle\Component
  */
 class LoginSuccessHandler extends DefaultAuthenticationSuccessHandler
 {
